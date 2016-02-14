@@ -304,7 +304,7 @@ function CheckIfLoaded()
    {
       if (! document.Common_Parsed_Started)
       {
-         window.setTimeout('Parse_Common()', 50);
+         window.setTimeout('Parse_Common()', 5);
 	 document.Common_Parsed_Started = 1;
       }
       s += "Parsing common passwords... " +
@@ -318,7 +318,7 @@ function CheckIfLoaded()
    {
       if (! document.Frequency_Parsed_Started)
       {
-         window.setTimeout('Parse_Frequency()', 50);
+         window.setTimeout('Parse_Frequency()', 5);
 	 document.Frequency_Parsed_Started = 1;
       }
       s += "Parsing frequency table... " +
@@ -327,13 +327,13 @@ function CheckIfLoaded()
    if (s != "")
    {
       Set_Text(s + "Loading ...");
-      window.setTimeout('CheckIfLoaded()', 200);
+      window.setTimeout('CheckIfLoaded()', 20);
       return;
    }
 
    // Loaded. Do initialization thingies.
    Set_Text("Finished Loading.");
-   window.setTimeout('ShowStats();', 1000);
+   window.setTimeout('ShowStats();', 100);
 }
 
-window.setTimeout('CheckIfLoaded()', 100);
+window.setTimeout('CheckIfLoaded()', 10);
