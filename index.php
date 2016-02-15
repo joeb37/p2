@@ -20,7 +20,7 @@
             </h2>
         </div>
         <div class="col-md-6">
-            <form class="well">
+            <form class="well" action="index.php" method="GET">
                 <label for="words">Number of Words: </label>
                 <input class="form-control" id="words" name="words" type="number" min="1" max="9" value="<?php echo $wordCount ?>">
                 <br>
