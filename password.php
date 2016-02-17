@@ -1,5 +1,4 @@
 <?php
-#var_dump($_GET);
 
 $wordList = ['alpha', 'bravo', 'charlie', 'delta', 'echo', 'foxtrot', 'golf', 'hotel', 'india',
              'juliet', 'kilo', 'lima', 'mike', 'november', 'oscar', 'papa', 'quebec', 'romeo',
@@ -13,7 +12,7 @@ $charList = ['~', '!', '@', '#', '$', '%', '^', '&', '*'];
 $errorObject = [];
 
 # Word Count
-$wordCount = 3; # default
+$wordCount = 3;
 if (array_key_exists('words', $_GET)) {
     $parmValue = $_GET['words'];
     if (is_numeric($parmValue) and ($parmValue >= 1 and $parmValue <= 9)) {

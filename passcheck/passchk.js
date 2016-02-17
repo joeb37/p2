@@ -304,7 +304,7 @@ function CheckIfLoaded()
    {
       if (! document.Common_Parsed_Started)
       {
-         window.setTimeout('Parse_Common()', 5);
+         window.setTimeout('Parse_Common()', 50);
 	 document.Common_Parsed_Started = 1;
       }
       s += "Parsing common passwords... " +
@@ -318,7 +318,7 @@ function CheckIfLoaded()
    {
       if (! document.Frequency_Parsed_Started)
       {
-         window.setTimeout('Parse_Frequency()', 5);
+         window.setTimeout('Parse_Frequency()', 50);
 	 document.Frequency_Parsed_Started = 1;
       }
       s += "Parsing frequency table... " +
