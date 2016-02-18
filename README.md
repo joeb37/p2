@@ -14,4 +14,4 @@ No special instructions.
 
 ## Outside code
 * Bootstrap: http://getbootstrap.com/
-* Passchk: http://rumkin.com/tools/password/passchk.php. The link to the downloadable source code is at the bottom.  This JavaScript library is used to provide the "Analyze Password" feature.  Minor modifications were made to the downloaded source.
+* Passchk: http://rumkin.com/tools/password/passchk.php. The link to the downloadable source code is at the bottom of the page.  I used this JavaScript library to provide the "Analyze Password" feature on my page.  I made minor modifications to the downloaded source.
