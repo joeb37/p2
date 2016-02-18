@@ -336,4 +336,7 @@ function CheckIfLoaded()
    window.setTimeout('ShowStats();', 100);
 }
 
-window.setTimeout('CheckIfLoaded()', 10);
+function analyze() {
+    window.setTimeout('CheckIfLoaded()', 10);    
+}
+//window.setTimeout('CheckIfLoaded()', 10);

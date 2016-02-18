@@ -69,7 +69,8 @@
                 </form>
             </div>
             <div class="col-md-6">
-                <span id="passchk_result">Loading ...</span>
+                <button type="button" class="btn btn-info btn-sm" onclick="analyze()">Analyze Password</button>
+                <div class="password-stats" id="passchk_result"></div>
             </div>
         </div>
     </div>
