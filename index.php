@@ -39,7 +39,7 @@
                     <input class="form-control" id="words" name="words" type="number" min="1" max="9" value="<?php echo $wordCount ?>">
                     <br>
                     <label for="special">Include a special symbol, e.g. &amp;, $, #: </label>
-                    <input id="special" name="special" type="checkbox" onclick="specialCharCBClicked(this)" <?php echo $incSpecial == "on" ? "checked" : "" ?> >
+                    <input id="special" name="special" type="checkbox" <?php echo $incSpecial == "on" ? "checked" : "" ?> >
                     <br>
                     <label for="digit">Include a digit: </label>
                     <input id="digit" name="digit" type="checkbox" <?php echo $incNumber == "on" ? "checked" : "" ?> >
